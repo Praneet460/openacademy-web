@@ -37,6 +37,7 @@ body {
    }
 
 main {
+   overflow: hidden;
 
   @include desktop {
      display: grid;
@@ -109,6 +110,7 @@ main {
     color: #fff;
     padding: $padding;
     text-align: center;
+    
 
 
     h1 {

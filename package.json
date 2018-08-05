@@ -4,11 +4,14 @@
   "description": "single webpage responsive website for openacademy",
   "main": "index.js",
   "scripts": {
-    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive",
+    "homepage": "https://praneet460.github.io/openacademy-web",
+    "deploy": "gh-pages -d dist"
   },
   "author": "Praneet Nigam",
   "license": "MIT",
   "dependencies": {
+    "gh-pages": "^1.2.0",
     "node-sass": "^4.9.2"
   }
 }
