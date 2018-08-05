@@ -1,0 +1,30 @@
+$colors: (
+   primary: #005DFF,
+   accent: #FFF6BB,
+   primary-light: lighten(#005DFF, 40%),
+   primary-dark: darken(#005DFF, 40%),
+   secondary-color: #eece1a
+);
+
+$padding: 15px;
+$borders: 15px;
+
+
+
+
+@mixin easeOut {
+  transition: all 0.5s ease-out;
+}
+
+
+@function color($color-name) {
+   @return  map-get($colors, $color-name)
+}
+
+// Media Query Mixins
+
+@mixin desktop {
+ @media screen and (min-width: 840px) {
+    @content;
+  }
+}
