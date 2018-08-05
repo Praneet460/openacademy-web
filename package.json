@@ -1,0 +1,14 @@
+{
+  "name": "openacademy_single_page_webpage",
+  "version": "1.0.0",
+  "description": "single webpage responsive website for openacademy",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+  },
+  "author": "Praneet Nigam",
+  "license": "MIT",
+  "dependencies": {
+    "node-sass": "^4.9.2"
+  }
+}
